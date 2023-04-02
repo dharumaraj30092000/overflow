@@ -1,0 +1,19 @@
+/*------ overflow ------*/
+div.ex1 {
+  background-color: lightblue;
+  width: 110px;
+  height: 110px;
+  overflow: hidden /* auto */ /* clip */ /* scroll */ /* visible */;
+  /* overflow-x: /* hidden */ /* auto */ /* clip */ scroll /* visible ;
+  overflow-y: /* hidden */ /* auto */ /* clip */ scroll /* visible */; 
+  margin-bottom: 30px;
+}
+/*------ wrap ------*/
+.overflow-wrap {
+  width: 150px; 
+  border: 1px solid #000000;
+  margin-bottom: 30px;
+}
+.wrap {
+  overflow-wrap: /* normal */ /* break-word */ anywhere;
+}
